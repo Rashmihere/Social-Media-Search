@@ -1,0 +1,15 @@
+{
+  "name": "Social Media Stalker",
+  "description": "Search for Profiles",
+  "version": "0.0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+   
+  },
+  "icons" : {
+     "16" : "Icon.png"
+},
+  "manifest_version": 2
+}
