@@ -2,7 +2,7 @@
 
   chrome.runtime.onInstalled.addListener(function() {
 var context = "selection";
-  var title = "Socail Media Search";
+  var title = "Social Media Search";
   var id = chrome.contextMenus.create({
            "title": title, "contexts":[context],
                                          "id": "Social Media"}); 
